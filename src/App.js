@@ -1,14 +1,14 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import Countries from './pages/Countries';
-import CountryInfo from './pages/CountryInfo';
+import Countries from './Pages/Countries';
+import CountryInfo from './Pages/CountryInfo';
 
 function App() {
   return (
     <div>
       <Routes>
         <Route path="/" element={<Countries />} />
-        <Route path="countryInfo/:name" element={<CountryInfo />} />
+        <Route path="countryInfo/" element={<CountryInfo />} />
       </Routes>
     </div>
   );
