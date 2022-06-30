@@ -1,8 +1,19 @@
 import React from 'react';
+import back from '../styles/backbutton.png';
+import mic from '../styles/mic.png';
+import gear from '../styles/gear.png';
+import styles from '../styles/Header.module.css';
 
 const Header = () => (
   <header>
-    <h1>Air Quality Report</h1>
+    <div className={styles.logo}>
+      <img src={back} alt="back button" />
+      <h2>Air Quality Report</h2>
+    </div>
+    <div className={styles.micandgear}>
+      <img src={mic} alt="mic" />
+      <img src={gear} alt="gear" />
+    </div>
   </header>
 );
 
