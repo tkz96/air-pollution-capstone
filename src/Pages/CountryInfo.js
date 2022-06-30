@@ -1,7 +1,6 @@
-export default function CountryInfo() {
-  return (
-    <>
-      <h1>Countries Info</h1>
-    </>
-  );
-}
+const CountryInfo = () => (
+  <>
+    <h1>Country Info</h1>
+  </>
+);
+export default CountryInfo;
