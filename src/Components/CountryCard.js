@@ -8,7 +8,6 @@ const CountryCard = ({
     <img src={map} alt="country map" />
     <div>
       <h2>{country}</h2>
-
     </div>
   </div>
 );
