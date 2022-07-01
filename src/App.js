@@ -8,7 +8,7 @@ function App() {
     <div>
       <Routes>
         <Route path="/" element={<Countries />} />
-        <Route path="countryInfo/" element={<CountryInfo />} />
+        <Route path="countryInfo/:countryName/:lat/:lon" element={<CountryInfo />} />
       </Routes>
     </div>
   );

@@ -9,8 +9,14 @@ const Countries = () => (
     </section>
     <section className="countries-grid">
       {countriesData.map((item) => (
-        <Link key={item.country} to={{ pathname: `/country/${item.country}` }}>
-          <CountryCard country={item.country} map={item.map} />
+        <Link
+          key={item.country}
+          to={{ pathname: `/countryInfo/${item.country}/${item.latitude}/${item.longitude}` }}
+        >
+          <CountryCard
+            country={item.country}
+            map={item.map}
+          />
         </Link>
       ))}
     </section>
