@@ -8,7 +8,7 @@ const Header = () => (
   <header>
     <div className={styles.logo}>
       <img src={back} alt="back button" />
-      <h2>Air Quality Report</h2>
+      <h3>Air Quality Report</h3>
     </div>
     <div className={styles.micandgear}>
       <img src={mic} alt="mic" />

@@ -1,12 +1,29 @@
 table {
-    border: 2px solid red;
     width: 100vw;
+    font-weight: bold;
 }
 
-tbody tr:nth-child(odd){
+table td {
+    border: 1px solid rgba(255, 255, 255, 0.384);
+}
+
+thead {
+    text-align: center;
+    background-color: #c42863;
+}
+
+tbody tr:nth-child(odd) {
     background: #ec4c8a;
 }
 
-tbody tr:nth-child(even){
+tbody tr:nth-child(even) {
     background: #c42863;
+}
+
+td {
+    padding: 0.5rem;
+}
+
+.countryName {
+    text-align: center;
 }

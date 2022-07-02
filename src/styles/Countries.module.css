@@ -14,3 +14,18 @@
 .countriesGrid a:nth-child(4n+5) {
     background: #c42863;
 }
+
+.europe {
+    min-height: 10rem;
+    min-width: fit-content;
+    margin: 1rem;
+}
+
+.mainSection {
+    display: flex;
+    border-bottom: 1px solid #c42863;
+}
+
+.europeSection {
+    margin: 0 auto;
+}

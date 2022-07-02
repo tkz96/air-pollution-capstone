@@ -4,11 +4,13 @@ header {
     align-items: center;
     padding: 0.1rem;
     background: #ec4c8a;
+    border-bottom: 1px solid #c42863;
 }
 
 img {
-    max-width: 2rem;
-    max-height: 2rem;
+    max-width: 1.75rem;
+    max-height: 1.75rem;
+    margin: 0.3rem;
 }
 
 .logo {
@@ -18,5 +20,4 @@ img {
 
 .micandgear {
     display: flex;
-    gap: 0.5rem;
 }
