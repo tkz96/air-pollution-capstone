@@ -15,6 +15,9 @@ const Countries = () => (
         </div>
       </div>
     </section>
+    <div className="search-bar">
+      <input type="search" className="search-input" placeholder="Search country" />
+    </div>
     <section className={styles.countriesGrid}>
       {countriesData.map((item) => (
         <Link
