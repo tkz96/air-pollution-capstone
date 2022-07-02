@@ -5,7 +5,7 @@ import { fetchCountryInfo } from '../app/features/countrySlice';
 import styles from '../styles/CountryInfo.module.css';
 
 const apiKey = 'af2778309f98e0c5d550f18b1778fb20';
-const baseURL = 'http://api.openweathermap.org/data/2.5/air_pollution';
+const baseURL = 'https://api.openweathermap.org/data/2.5/air_pollution';
 
 const CountryInfo = () => {
   const { countryName, lat, lon } = useParams();
