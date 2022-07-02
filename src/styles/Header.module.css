@@ -1,23 +1,23 @@
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0.1rem;
-    background: #ec4c8a;
-    border-bottom: 1px solid #c42863;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.1rem;
+  background: #ec4c8a;
+  border-bottom: 1px solid #c42863;
 }
 
 img {
-    max-width: 1.75rem;
-    max-height: 1.75rem;
-    margin: 0.3rem;
+  max-width: 1.75rem;
+  max-height: 1.75rem;
+  margin: 0.3rem;
 }
 
 .logo {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .micandgear {
-    display: flex;
+  display: flex;
 }

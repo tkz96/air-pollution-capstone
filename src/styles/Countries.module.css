@@ -1,31 +1,31 @@
 .countriesGrid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 100%;
 }
 
 .countriesGrid a:nth-child(4n+2),
 .countriesGrid a:nth-child(4n+3) {
-    background: #ec4c8a;
+  background: #ec4c8a;
 }
 
 .countriesGrid a:nth-child(1),
 .countriesGrid a:nth-child(4n+4),
 .countriesGrid a:nth-child(4n+5) {
-    background: #c42863;
+  background: #c42863;
 }
 
 .europe {
-    min-height: 10rem;
-    min-width: fit-content;
-    margin: 1rem;
+  min-height: 10rem;
+  min-width: 10rem;
+  margin: 1rem;
 }
 
 .mainSection {
-    display: flex;
-    border-bottom: 1px solid #c42863;
+  display: flex;
+  border-bottom: 1px solid #c42863;
 }
 
 .europeSection {
-    margin: 0 auto;
+  margin: 0 auto;
 }
