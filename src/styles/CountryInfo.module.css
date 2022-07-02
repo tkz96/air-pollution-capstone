@@ -1,0 +1,12 @@
+table {
+    border: 2px solid red;
+    width: 100vw;
+}
+
+tbody tr:nth-child(odd){
+    background: #ec4c8a;
+}
+
+tbody tr:nth-child(even){
+    background: #c42863;
+}

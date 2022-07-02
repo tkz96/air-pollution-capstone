@@ -1,0 +1,16 @@
+.countriesGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 100%;
+}
+
+.countriesGrid a:nth-child(4n+2),
+.countriesGrid a:nth-child(4n+3) {
+    background: #ec4c8a;
+}
+
+.countriesGrid a:nth-child(1),
+.countriesGrid a:nth-child(4n+4),
+.countriesGrid a:nth-child(4n+5) {
+    background: #c42863;
+}

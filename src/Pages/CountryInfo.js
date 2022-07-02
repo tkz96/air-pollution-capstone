@@ -2,6 +2,7 @@ import { useParams } from 'react-router-dom';
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchCountryInfo } from '../app/features/countrySlice';
+import '../styles/CountryInfo.module.css';
 
 const apiKey = 'af2778309f98e0c5d550f18b1778fb20';
 const baseURL = 'http://api.openweathermap.org/data/2.5/air_pollution';
