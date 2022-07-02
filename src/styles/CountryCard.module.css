@@ -1,0 +1,9 @@
+.countryImage {
+  min-height: 4rem;
+  min-width: 4rem;
+}
+
+.countryName {
+  text-align: right;
+  padding-right: 0.5rem;
+}
