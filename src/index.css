@@ -33,3 +33,14 @@ code {
     'Courier New',
     monospace;
 }
+
+.search-bar {
+  margin: 1rem;
+}
+
+.search-input {
+  padding: 0.5rem;
+  height: 3rem;
+  width: 24rem;
+  border-radius: 12px;
+}
