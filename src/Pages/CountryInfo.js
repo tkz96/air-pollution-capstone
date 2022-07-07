@@ -20,12 +20,11 @@ const CountryInfo = () => {
   const airStore = useSelector((state) => (state.country));
   const airInfo = Object.values(airStore);
   const location = useLocation();
-  console.log(location);
   const { imgmap } = location.state;
   return (
     <>
       <h1 className={styles.countryName}>{countryName}</h1>
-      <img src={imgmap} alt="country map" />
+      <img className={styles.countryMap} src={imgmap} alt="country map" />
       <table>
         <thead>
           <tr>

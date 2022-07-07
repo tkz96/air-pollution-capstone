@@ -1,6 +1,6 @@
 .countryImage {
-  min-height: 4rem;
-  min-width: 4rem;
+  max-height: 120px;
+  max-width: 120px;
 }
 
 .countryName {
