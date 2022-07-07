@@ -4,8 +4,8 @@ import { Provider } from 'react-redux';
 import Header from '../Components/Header';
 import store from '../app/store';
 
-describe('Home tests', () => {
-  it('render home', () => {
+describe('header tests', () => {
+  it('render header', () => {
     const tree = render(
       <Provider store={store}>
         <Router>
