@@ -38,11 +38,16 @@ const Countries = () => {
         }).map((item) => (
           <Link
             key={item.country}
-            to={{ pathname: `/countryInfo/${item.country}/${item.latitude}/${item.longitude}` }}
+            to={{
+              pathname: `/countryInfo/${item.country}/${item.latitude}/${item.longitude}`,
+            }}
+            state={{
+              imgmap: item.map,
+            }}
           >
             <CountryCard
               country={item.country}
-              map={item.map}
+              imgmap={item.map}
             />
           </Link>
         ))}

@@ -3,10 +3,10 @@ import PropTypes from 'prop-types';
 import styles from '../styles/CountryCard.module.css';
 
 const CountryCard = ({
-  country, map,
+  country, imgmap,
 }) => (
   <div>
-    <img className={styles.countryImage} src={map} alt="country map" />
+    <img className={styles.countryImage} src={imgmap} alt="country map" />
     <div>
       <h3 className={styles.countryName}>{country}</h3>
     </div>
@@ -14,7 +14,7 @@ const CountryCard = ({
 );
 
 CountryCard.propTypes = {
-  map: PropTypes.string.isRequired,
+  imgmap: PropTypes.string.isRequired,
   country: PropTypes.string.isRequired,
 };
 

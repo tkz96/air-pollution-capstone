@@ -1,4 +1,4 @@
-import { useParams } from 'react-router-dom';
+import { useLocation, useParams } from 'react-router-dom';
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchCountryInfo } from '../app/features/countrySlice';
@@ -19,10 +19,13 @@ const CountryInfo = () => {
 
   const airStore = useSelector((state) => (state.country));
   const airInfo = Object.values(airStore);
-
+  const location = useLocation();
+  console.log(location);
+  const { imgmap } = location.state;
   return (
     <>
       <h1 className={styles.countryName}>{countryName}</h1>
+      <img src={imgmap} alt="country map" />
       <table>
         <thead>
           <tr>
