@@ -12,13 +12,13 @@ const Header = () => {
     <header>
       <div className={styles.logo}>
         {countryPage ? (
-          <Link to="/"><img src={back} alt="back button" /></Link>
+          <Link to="/"><img className={styles.headerImages} src={back} alt="back button" /></Link>
         ) : null}
         <h3>Air Quality Report</h3>
       </div>
       <div className={styles.micandgear}>
-        <img src={mic} alt="mic" />
-        <img src={gear} alt="gear" />
+        <img className={styles.headerImages} src={mic} alt="mic" />
+        <img className={styles.headerImages} src={gear} alt="gear" />
       </div>
     </header>
   );

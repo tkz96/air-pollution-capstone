@@ -7,7 +7,7 @@ header {
   border-bottom: 1px solid #c42863;
 }
 
-img {
+.headerImages {
   max-width: 1.75rem;
   max-height: 1.75rem;
   margin: 0.3rem;

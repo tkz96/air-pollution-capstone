@@ -24,3 +24,10 @@ tbody tr:nth-child(even) {
 .countryName {
   text-align: center;
 }
+
+.countryMap {
+  display: flex;
+  max-width: 300px;
+  max-height: 300px;
+  margin: 0 auto;
+}
