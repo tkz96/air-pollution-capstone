@@ -1,0 +1,9 @@
+.countryImage {
+  max-height: 120px;
+  max-width: 120px;
+}
+
+.countryName {
+  text-align: right;
+  padding-right: 0.5rem;
+}
