@@ -1,0 +1,33 @@
+table {
+  width: 100vw;
+  font-weight: bold;
+}
+
+table td {
+  border: 1px solid rgba(255, 255, 255, 0.384);
+  padding: 0.5rem;
+}
+
+thead {
+  text-align: center;
+  background-color: #c42863;
+}
+
+tbody tr:nth-child(odd) {
+  background: #ec4c8a;
+}
+
+tbody tr:nth-child(even) {
+  background: #c42863;
+}
+
+.countryName {
+  text-align: center;
+}
+
+.countryMap {
+  display: flex;
+  max-width: 300px;
+  max-height: 300px;
+  margin: 0 auto;
+}

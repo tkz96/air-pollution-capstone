@@ -1,0 +1,31 @@
+.countriesGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 100%;
+}
+
+.countriesGrid a:nth-child(4n+2),
+.countriesGrid a:nth-child(4n+3) {
+  background: #ec4c8a;
+}
+
+.countriesGrid a:nth-child(1),
+.countriesGrid a:nth-child(4n+4),
+.countriesGrid a:nth-child(4n+5) {
+  background: #c42863;
+}
+
+.europe {
+  max-height: 10rem;
+  max-width: 10rem;
+  margin: 1rem;
+}
+
+.mainSection {
+  display: flex;
+  border-bottom: 1px solid #c42863;
+}
+
+.europeSection {
+  margin: 0 auto;
+}
