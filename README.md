@@ -8,7 +8,7 @@ An easy web app that provides information regarding the air composition in diffe
 
 - React
 - Redux
-- Open Weather API
+- OpenWeatherMap API
 
 ## Live Demo
 
